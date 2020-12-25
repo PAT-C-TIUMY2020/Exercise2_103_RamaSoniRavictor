@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client1_20180140103_Rama Soni Ravictor", "Exercise2_20180140103_Rama Soni Ravictor\Client1_20180140103_Rama Soni Ravictor.csproj", "{FC879EA9-12D6-4753-B286-6B1B6976D9CC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8745BDEA-987A-4B0F-AF01-9FF42882355E} = {8745BDEA-987A-4B0F-AF01-9FF42882355E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client2_20180140103_Rama Soni Ravictor", "Client2_20180140103_Rama Soni Ravictor\Client2_20180140103_Rama Soni Ravictor.csproj", "{2A5A180B-F17E-4E09-BD39-140252497137}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8745BDEA-987A-4B0F-AF01-9FF42882355E} = {8745BDEA-987A-4B0F-AF01-9FF42882355E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerConfig_20180140103_Rama Soni Ravictor", "ServerConfig_20180140103_Rama Soni Ravictor\ServerConfig_20180140103_Rama Soni Ravictor.csproj", "{5CA4C284-33C4-4937-8207-5F317213710F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceRest_20180140103_Rama Soni Ravictor", "ServiceRest_20180140103_Rama Soni Ravictor\ServiceRest_20180140103_Rama Soni Ravictor.csproj", "{8745BDEA-987A-4B0F-AF01-9FF42882355E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC879EA9-12D6-4753-B286-6B1B6976D9CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC879EA9-12D6-4753-B286-6B1B6976D9CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC879EA9-12D6-4753-B286-6B1B6976D9CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC879EA9-12D6-4753-B286-6B1B6976D9CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A5A180B-F17E-4E09-BD39-140252497137}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A5A180B-F17E-4E09-BD39-140252497137}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A5A180B-F17E-4E09-BD39-140252497137}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A5A180B-F17E-4E09-BD39-140252497137}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CA4C284-33C4-4937-8207-5F317213710F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CA4C284-33C4-4937-8207-5F317213710F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CA4C284-33C4-4937-8207-5F317213710F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CA4C284-33C4-4937-8207-5F317213710F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8745BDEA-987A-4B0F-AF01-9FF42882355E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8745BDEA-987A-4B0F-AF01-9FF42882355E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8745BDEA-987A-4B0F-AF01-9FF42882355E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8745BDEA-987A-4B0F-AF01-9FF42882355E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E83A6633-05C9-427D-BB07-D5770ECCFBB4}
+	EndGlobalSection
+EndGlobal
